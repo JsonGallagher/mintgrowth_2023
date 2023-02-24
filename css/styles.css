@@ -1,5 +1,19 @@
 body {
-    background-image: url("images/Gradient_Mesh-1.png");
+    background-image: url("/images/Gradient_Mesh-1.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+h1.logo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5em;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);;
+}
+
+div.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
